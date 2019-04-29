@@ -6,7 +6,7 @@
 # update all packages
 sudo pacman -Syu
 # install pacman packages
-sudo pacman -S yay htop docker docker-compose devtools filezilla thunderbird peek jdk8-openjdk base-devel kolourpaint
+sudo pacman -S yay htop docker docker-compose devtools filezilla thunderbird peek jdk8-openjdk base-devel kolourpaint sshpass
 # configure docker
 sudo systemctl start docker
 sudo systemctl enable docker
