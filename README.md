@@ -12,7 +12,7 @@ sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
 # install yay packages
-yay -S spotify google-chrome visual-studio-code-bin redis-desktop-manager gitkraken android-studio
+yay -S spotify google-chrome visual-studio-code-bin redis-desktop-manager gitkraken android-studio robo3t-bin
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
