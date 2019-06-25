@@ -18,3 +18,10 @@ yay -S spotify google-chrome visual-studio-code-bin redis-desktop-manager gitkra
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
+
+Configure ANDROID_HOME in .bashrc
+```
+export ANDROID_HOME=~/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
