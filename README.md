@@ -25,7 +25,7 @@ export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
-Accept android licences
+[Accept android licences](https://stackoverflow.com/questions/39760172/you-have-not-accepted-the-license-agreements-of-the-following-sdk-components)
 ```console
 ~/Android/Sdk/tools/bin/sdkmanager --licenses
 ```
@@ -35,7 +35,7 @@ nvm i 10.16.3
 npm i -g npm eslint yarn pm2 expo-cli prisma react-native-cli
 
 ```
-crack gitkraken
+[crack gitkraken](https://github.com/5cr1pt/GitCracken)
 ```console
 mkdir ~/dev
 cd ~/dev
