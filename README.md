@@ -25,3 +25,24 @@ export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
+Accept android licences
+```console
+~/Android/Sdk/tools/bin/sdkmanager --licenses
+```
+install node & npm basic global packages
+```console
+nvm i 10.16.3
+npm i -g npm eslint yarn pm2 expo-cli prisma react-native-cli
+
+```
+crack gitkraken
+```console
+mkdir ~/dev
+cd ~/dev
+git clone https://github.com/5cr1pt/GitCracken gticracken
+cd gticracken/GitCracken/
+yarn
+yarn build
+sudo yarn start patcher
+```
+```
