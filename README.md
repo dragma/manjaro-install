@@ -14,7 +14,7 @@ sudo usermod -aG docker $USER
 # update makepkg configuration
 # => https://www.reddit.com/r/archlinux/comments/3ctiou/lpt_speed_up_makepkg_by_skippingparallelizing/
 # install yay packages
-yay -S devtools-git spotify google-chrome visual-studio-code-bin redis-desktop-manager gitkraken android-studio robo3t-bin slack-desktop
+yay -S devtools-git google-chrome visual-studio-code-bin redis-desktop-manager gitkraken android-studio robo3t-bin slack-desktop asbru-cm brave
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
