@@ -31,7 +31,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 install node & npm basic global packages
 ```console
-nvm i 10.16.3
+nvm i 12.18.4
 npm i -g npm eslint yarn pm2 expo-cli prisma react-native-cli
 
 ```
